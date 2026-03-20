@@ -6,7 +6,7 @@ import (
 	"syscall"
 
 	"github.com/spf13/cobra"
-	"github.com/uniqelus/dsp/cmd/generate"
+	"github.com/uniqelus/dsp/cmd/dsp/generate"
 )
 
 var rootCmd = &cobra.Command{

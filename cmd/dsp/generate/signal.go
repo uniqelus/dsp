@@ -15,14 +15,7 @@ import (
 var genSignalCmd = &cobra.Command{
 	Use:   "signal",
 	Short: "Generate harmonic discrete signal (cosine wave)",
-	Long: `Generates an array of discrete signal samples according to the formula:
-  s(t) = A·cos(2πft + φ) + C
-
-where:
-  A — signal amplitude [V]
-  f — signal frequency [Hz]
-  φ — initial phase [rad]
-  C — DC offset [V]
+	Long: `Generates an array of discrete signal samples
 
 The output is saved to a CSV file with two columns: time (time in seconds) 
 and value (signal value in Volts).`,
